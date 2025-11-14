@@ -1,9 +1,6 @@
 library(palmerpenguins)
 library(ggplot2)
 
-# making some edits
-df <- palmerpenguins::penguins_raw
-
 # plot body_mass_g ~ bill_length_mm
 plot(body_mass_g ~ bill_length_mm, palmerpenguins::penguins)
 
